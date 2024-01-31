@@ -476,3 +476,143 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
 }
+.testimonial {
+  margin-top: 264px;
+}
+.testimonial .body {
+  display: flex;
+}
+
+.testimonial .info {
+  width: 35%;
+}
+.testimonial .media {
+  width: 65%;
+}
+
+.testimonial .info .title {
+  width: 419px;
+  margin: 27px 0 33px 0;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.testimonial .info .author {
+  position: relative;
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.testimonial .info span {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.testimonial .info .control {
+  display: flex;
+  gap: 30px;
+  margin-top: 52px;
+  color: white;
+}
+.testimonial .media {
+  position: relative;
+  margin-left: 72px;
+}
+.testimonial .media .avatar-1 {
+  position: absolute;
+  width: 235px;
+  height: 235px;
+  border-radius: 235px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.testimonial .media .avatar-2 {
+  position: absolute;
+  bottom: 0;
+  left: 166px;
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+}
+
+.testimonial .media .avatar-3 {
+  position: absolute;
+  bottom: 100px;
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+}
+
+.testimonial .media .avatar-4 {
+  position: absolute;
+  right: 32px;
+  bottom: 29px;
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+}
+
+.testimonial .media .avatar-5 {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 92px;
+  height: 92px;
+  border-radius: 92px;
+}
+.testimonial .control .left :hover {
+  opacity: 0.9;
+  color: black;
+}
+.testimonial .control .right :hover {
+  opacity: 0.9;
+  color: black;
+}
+.testimonial .media .avatar-6 {
+  position: absolute;
+  right: 0;
+  top: 19px;
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+}
+
+.base {
+  margin-top: 130px;
+  width: 100%;
+  height: 272px;
+  background: #def6f5;
+}
+.base .base-row {
+  padding-top: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.base .base-btn {
+  margin-left: 410px;
+  color: #fff;
+  padding: 20px 41px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 14px;
+  background: #2ac9bf;
+}
+.base .title {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.base .desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
